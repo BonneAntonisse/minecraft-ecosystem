@@ -1,0 +1,13 @@
+# Geen grote bestanden
+*.jar
+world/
+world_nether/
+world_the_end/
+logs/
+libraries/
+versions/
+crash-reports/
+usercache.json
+banned-ips.json
+banned-players.json
+eula.txt

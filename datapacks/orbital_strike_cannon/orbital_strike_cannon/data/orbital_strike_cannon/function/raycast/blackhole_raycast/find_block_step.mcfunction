@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^0.5 run function orbital_strike_cannon:raycast/blackhole_raycast/find_block

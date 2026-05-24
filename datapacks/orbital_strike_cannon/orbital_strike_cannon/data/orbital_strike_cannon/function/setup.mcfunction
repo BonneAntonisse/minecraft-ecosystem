@@ -1,0 +1,37 @@
+# Nuke Shot - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Nuke Shot"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/nuke_raycast_power_1/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Nuke Shot"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/nuke_raycast_power_1/spawn_armor_stand
+
+# Stab Shot - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Stab Shot"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~110 ~ run function orbital_strike_cannon:raycast/stab_raycast_power_1/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Stab Shot"}] at @s positioned ^ ^ ^10 positioned ~ ~110 ~ run function orbital_strike_cannon:raycast/stab_raycast_power_1/spawn_armor_stand
+
+# Law-Nuke Shot - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Law-Nuke Shot"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/lawnuke_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Law-Nuke Shot"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/lawnuke_raycast/spawn_armor_stand
+
+# Lightning Strike - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Lightning Strike"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/lightning_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Lightning Strike"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/lightning_raycast/spawn_armor_stand
+
+# Meteor Strike - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Meteor Strike"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/meteor_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Meteor Strike"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/meteor_raycast/spawn_armor_stand
+
+# Black Hole - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Black Hole"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/blackhole_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Black Hole"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/blackhole_raycast/spawn_armor_stand
+
+# Timestop - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Timestop"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/timestop_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Timestop"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/timestop_raycast/spawn_armor_stand
+
+# Doomsday - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Doomsday"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/doomsday_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Doomsday"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/doomsday_raycast/spawn_armor_stand
+
+# Chicken Rain - Only works in the Overworld
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Chicken Rain"}] at @s positioned ^ ^ ^10 if predicate {condition:"minecraft:location_check",predicate:{can_see_sky:1b}} positioned over world_surface positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/chicken_raycast/spawn_armor_stand
+execute if dimension minecraft:overworld on origin if items entity @s weapon fishing_rod[damage=60,custom_data={Orbital_Cannon:1010},custom_name={text:"Chicken Rain"}] at @s positioned ^ ^ ^10 positioned ~ ~16 ~ run function orbital_strike_cannon:raycast/chicken_raycast/spawn_armor_stand
+
+tag @s add spawned

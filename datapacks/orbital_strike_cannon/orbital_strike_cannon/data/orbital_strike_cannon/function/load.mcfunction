@@ -1,0 +1,2 @@
+scoreboard objectives add orbital_deaths minecraft.custom:minecraft.deaths
+scoreboard objectives add orbital_bh_timer dummy

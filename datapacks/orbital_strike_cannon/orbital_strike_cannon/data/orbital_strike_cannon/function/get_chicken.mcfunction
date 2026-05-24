@@ -1,0 +1,1 @@
+give @s minecraft:fishing_rod[damage=60,custom_model_data={floats:[1009f]},custom_data={Orbital_Cannon:1010},custom_name={text:"Chicken Rain"}]

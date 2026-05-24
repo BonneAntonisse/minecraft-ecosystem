@@ -1,0 +1,2 @@
+execute if items entity @s * minecraft:heart_of_the_sea[custom_data~{lifesteal_heart:1b}] run function lifesteal:do_use_heart
+execute unless items entity @s * minecraft:heart_of_the_sea[custom_data~{lifesteal_heart:1b}] run title @s actionbar {"text":"Je hebt geen hart item!","color":"red","bold":true}

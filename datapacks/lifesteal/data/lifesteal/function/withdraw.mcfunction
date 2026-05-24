@@ -1,0 +1,2 @@
+execute if score @s lifesteal_hearts matches 2.. run function lifesteal:do_withdraw
+execute unless score @s lifesteal_hearts matches 2.. run title @s actionbar {"text":"Te weinig harten om te withdrawen!","color":"red","bold":true}
